@@ -301,8 +301,14 @@ right: 0;
 .ico,
 [class^="ico-"],
 [class*=" ico-"]{font:normal 1em/1 Arial, sans-serif; display:inline-block; font-size:1.5em;
- background-size: 100% 100%; padding:14px 16px; display:block; float:left; text-decoration:none;
+ background-size: 100% 100%; padding:14px 16px; display:block; text-decoration:none;
 }
+.ico-facebook{ background-image: url("files/facebook.svg"); }
+.ico-github{ background-image: url("files/github.svg"); }
+.ico-linkedin{ background-image: url("files/linkedin.svg"); }
+.ico-twitter{ background-image: url("files/twitter.svg"); }
+.ico-whatsapp{ background-image: url("files/whatsapp.svg"); }
+
 .ico-scan{ background-image: url("../images/icons/scan.svg"); }
 .ico-scan2{ background-image: url("../images/icons/scan2.svg"); }
 .ico-cetak{ background-image: url("../images/icons/print.svg"); }
