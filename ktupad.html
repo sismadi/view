@@ -34,7 +34,7 @@
   </li>
 
 <li id="dropdown" tabindex="0" class="dropdown-menu" style="float:right">
-<a>Dropdown</a>
+<span>Dropdown</span>
 <ul  class="dropdown pColor" >
 <li><input id="1ss" type="checkbox" ><label class="btn-h" for="1ss" >Level 1</label>
 <ul>
@@ -43,14 +43,18 @@
 </li>
 </ul>
 </li>
-<li id="accordion" tabindex="0" class="accordion-menu">
-<i class="ico-burger"></i>
-<ul  class="accordion pColor" >
-<li><input id="1s" type="checkbox" ><label class="btn-h" for="1s" >Info</label>
-<ul><li><input id="2s" type="checkbox" ><label class="btn-h" for="2s" >Ktupad-2.0</label></li></ul>
+
+<li style="float:left" class="accordion-menu" tabindex="0" >
+<i class="ico-burger btn-form"></i>
+<ul id="kiri" class="accordion pColor hide" style=" width:150px; height:100%; position:fixed; z-index:1; ">
+  <li><input type="checkbox" id="1s" > <label class="btn-h" for="1s" >Info</label>
+    <ul>
+  <li><input type="checkbox" id="2s" > <label class="btn-h" for="2s" >Ktupad-2.0</label></li>
+</ul>
 </li>
 </ul>
 </li>
+
 </ul>
 </div>
 
@@ -103,10 +107,10 @@ Pilih File CSV:</label><input id="afile" type="file" name="afile" >
 <div  class="modal row">
 <button   class="btn-close ico-close" onclick="k.close('gallery')"></button>
 <div class="row">
-<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad"></a></div>
-<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad" ></a></div>
-<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad"></a></div>
-<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad" ></a></div>
+<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad" width="200" height="200"></a></div>
+<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad" width="200" height="200"></a></div>
+<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad" width="200" height="200"></a></div>
+<div class="l-6 s-12"><a href="#"><img src="ktupad.svg" alt="ktupad" width="200" height="200"></a></div>
 </div>
 </div>
 </div>
@@ -165,7 +169,7 @@ Pilih File CSV:</label><input id="afile" type="file" name="afile" >
 <a  href="#" >Print</a>
 </div>
 </li>
-<li id="SearchTxt" style="float:right" ><label for="InpSearch"><input id="InpSearch" type="text" placeholder="Search..." /></label></li>
+<li id="SearchTxt" style="float:right" ><input id="inpSearch" type="text" placeholder="Search..." /><label for="inpSearch" class="">Search</label></li>
 </ul>
 </div>
 
