@@ -301,7 +301,7 @@ right: 0;
 .ico,
 [class^="ico-"],
 [class*=" ico-"]{font:normal 1em/1 Arial, sans-serif; display:inline-block; font-size:1.5em;
- background-size: 100% 100%; padding:14px 16px; float:left; display:block; text-decoration:none;
+ background-size: 100% 100%; padding:14px 16px; text-decoration:none;
 }
 .ico-facebook{ background-image: url("files/facebook.svg"); }
 .ico-twitter{ background-image: url("files/twitter.svg"); }
